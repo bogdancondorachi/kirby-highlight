@@ -1,0 +1,31 @@
+{
+  "name": "bogdancondorachi/kirby-highlight",
+  "description": "Server-side code highlighting for Kirby CMS",
+  "type": "kirby-plugin",
+  "license": "MIT",
+  "homepage": "https://github.com/bogdancondorachi/kirby-highlight",
+  "version": "0.0.0",
+  "authors": [
+    {
+      "name": "Bogdan Condorachi",
+      "email": "bogdan.condorachi@gmail.com",
+      "homepage": "https://getkirby.com/plugins/bogdancondorachi"
+    }
+  ],
+  "require": {
+    "getkirby/composer-installer": "^1.2",
+    "tempest/highlight": "^2.0"
+  },
+  "scripts": {
+    "dist": "composer install --no-dev --optimize-autoloader"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    }
+  },
+  "extra": {
+    "installer-name": "highlight"
+  }
+}

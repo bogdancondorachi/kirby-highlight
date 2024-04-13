@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'bogdancondorachi/kirby-highlight',
+        'pretty_version' => '0.1.0',
+        'version' => '0.1.0.0',
+        'reference' => NULL,
+        'type' => 'kirby-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'bogdancondorachi/kirby-highlight' => array(
+            'pretty_version' => '0.1.0',
+            'version' => '0.1.0.0',
+            'reference' => NULL,
+            'type' => 'kirby-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'getkirby/composer-installer' => array(
+            'pretty_version' => '1.2.1',
+            'version' => '1.2.1.0',
+            'reference' => 'c98ece30bfba45be7ce457e1102d1b169d922f3d',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/../getkirby/composer-installer',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'tempest/highlight' => array(
+            'pretty_version' => '2.0.1',
+            'version' => '2.0.1.0',
+            'reference' => '18be2c73629552330483b9b05b4ad81f65590829',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../tempest/highlight',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
