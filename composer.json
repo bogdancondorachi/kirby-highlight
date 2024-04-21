@@ -4,7 +4,7 @@
   "type": "kirby-plugin",
   "license": "MIT",
   "homepage": "https://github.com/bogdancondorachi/kirby-highlight",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "authors": [
     {
       "name": "Bogdan Condorachi",
