@@ -8,6 +8,12 @@ Server-side code highlighting for Kirby CMS.
 
 ## Installation
 
+### Composer
+
+```
+composer require bogdancondorachi/kirby-highlight
+```
+
 ### Download
 
 Download and copy this repository to `/site/plugins/highlight`
