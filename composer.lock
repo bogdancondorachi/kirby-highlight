@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "744ac0c15777db13c12e85464e51bf01",
+    "content-hash": "c717c69f723c38445974200cbadb6c9f",
     "packages": [
         {
             "name": "getkirby/composer-installer",
@@ -55,16 +55,16 @@
         },
         {
             "name": "tempest/highlight",
-            "version": "2.0.1",
+            "version": "2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tempestphp/highlight.git",
-                "reference": "18be2c73629552330483b9b05b4ad81f65590829"
+                "reference": "abab8b516d76727402459cc73755f5568fddfce2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tempestphp/highlight/zipball/18be2c73629552330483b9b05b4ad81f65590829",
-                "reference": "18be2c73629552330483b9b05b4ad81f65590829",
+                "url": "https://api.github.com/repos/tempestphp/highlight/zipball/abab8b516d76727402459cc73755f5568fddfce2",
+                "reference": "abab8b516d76727402459cc73755f5568fddfce2",
                 "shasum": ""
             },
             "require": {
@@ -96,7 +96,7 @@
             "description": "Fast, extensible, server-side code highlighting",
             "support": {
                 "issues": "https://github.com/tempestphp/highlight/issues",
-                "source": "https://github.com/tempestphp/highlight/tree/2.0.1"
+                "source": "https://github.com/tempestphp/highlight/tree/2.3.1"
             },
             "funding": [
                 {
@@ -104,7 +104,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-04-19T12:48:14+00:00"
+            "time": "2024-04-25T11:41:26+00:00"
         }
     ],
     "packages-dev": [],
@@ -113,7 +113,9 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=8.3"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
 }

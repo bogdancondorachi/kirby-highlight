@@ -46,6 +46,8 @@ use Tempest\Highlight\Languages\Php\Patterns\SingleQuoteValuePattern;
 use Tempest\Highlight\Languages\Php\Patterns\StaticClassCallPattern;
 use Tempest\Highlight\Languages\Php\Patterns\UntypedClassPropertyPattern;
 use Tempest\Highlight\Languages\Php\Patterns\UseAsPattern;
+use Tempest\Highlight\Languages\Php\Patterns\UseFunctionNamePattern;
+use Tempest\Highlight\Languages\Php\Patterns\UseFunctionPattern;
 use Tempest\Highlight\Languages\Php\Patterns\UsePattern;
 use Tempest\Highlight\Languages\Php\Patterns\VariablePattern;
 
@@ -62,8 +64,8 @@ class PhpLanguage extends BaseLanguage
             ...parent::getInjections(),
             new PhpHeredocInjection(),
             new PhpDocCommentInjection(),
-            new PhpAttributeInstanceInjection(),
             new PhpAttributePlainInjection(),
+            new PhpAttributeInstanceInjection(),
             new PhpFunctionParametersInjection(),
         ];
     }
@@ -73,6 +75,10 @@ class PhpLanguage extends BaseLanguage
         return [
             ...parent::getPatterns(),
 
+            new UseFunctionNamePattern(),
+            new UseFunctionPattern(),
+            new ClassNamePattern(),
+            new NamedArgumentPattern(),
             new OperatorPattern('&&'),
             new OperatorPattern('\|\|'),
             new OperatorPattern('<=>'),
@@ -170,7 +176,6 @@ class PhpLanguage extends BaseLanguage
             new NamespacePattern(),
             new PropertyTypesPattern(),
             new ConstantTypesPattern(),
-            new ClassNamePattern(),
             new ReturnTypePattern(),
             new StaticClassCallPattern(),
             new NewObjectPattern(),
@@ -183,7 +188,6 @@ class PhpLanguage extends BaseLanguage
 
             // PROPERTIES
             new ClassPropertyPattern(),
-            new NamedArgumentPattern(),
             new PropertyAccessPattern(),
             new FunctionNamePattern(),
             new NestedFunctionCallPattern(),

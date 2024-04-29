@@ -9,22 +9,14 @@ use Tempest\Highlight\Pattern;
 use Tempest\Highlight\PatternTest;
 use Tempest\Highlight\Tokens\TokenTypeEnum;
 
-#[PatternTest(
-    input: 'src: url("fonts/MonaspaceArgon-Bold.woff") format("woff");',
-    output: ['url', 'format'],
-)]
-
-#[PatternTest(
-    input: 'background: linear-gradient(white 30%)',
-    output: ['linear-gradient'],
-)]
-final readonly class CssFunctionPattern implements Pattern
+#[PatternTest(input: "@import main.css", output: '@import')]
+final readonly class CssImportPattern implements Pattern
 {
     use IsPattern;
 
     public function getPattern(): string
     {
-        return '(?<match>[\w\-]+)\(';
+        return '(?<match>\@import)';
     }
 
     public function getTokenType(): TokenTypeEnum
