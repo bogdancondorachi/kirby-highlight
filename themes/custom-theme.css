@@ -1,0 +1,80 @@
+/* Fenced code block */
+pre > code[data-lang] {
+  display: block;
+  overflow-x: auto;
+  line-height: 1.5;
+  padding: 1rem;
+  border-radius: .25rem;
+  color: #E0E0E0;
+  background-color: #000;
+  font-size: .875rem;
+}
+
+/* Inline code block */
+:not(pre) > code[data-lang] {
+  display: inline-block;
+  padding: .125rem .375rem;
+  border-radius: .25rem;
+  color: #E0E0E0;
+  background-color: #000;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-size: 0.825em;
+}
+
+/* Tokens */
+.hl-keyword {
+  color: var(--hl-kirby-dark-keyword, #BA85E0);
+}
+.hl-property {
+  color: var(--hl-kirby-dark-property, #8DBAE7);
+}
+.hl-type {
+  color: var(--hl-kirby-dark-type, #F0D575);
+}
+.hl-value {
+  color: var(--hl-kirby-dark-value, #BDDE7A);
+}
+.hl-comment {
+  color: var(--hl-kirby-dark-comment, #B3B3B3);
+}
+.hl-injection {
+  color: var(--hl-kirby-dark-injection, #F18383);
+}
+.hl-variable {
+  color: var(--hl-kirby-dark-variable, #F18383);
+}
+.hl-generic {
+  color: var(--hl-kirby-dark-generic, #F18383);
+}
+.hl-gutter {
+  color: #737373;
+  user-select: none;
+  margin-inline-end: .5rem;
+}
+
+/* Language Customization */
+
+/* HTML */
+code[data-lang='html'] .hl-keyword {
+  color: var(--hl-kirby-dark-html-keyword, #F18383);
+}
+code[data-lang='html'] .hl-property {
+  color: var(--hl-kirby-dark-html-property, #F1B581);
+}
+
+/* CSS */
+code[data-lang='css'] .hl-keyword {
+  color: var(--hl-kirby-dark-css-keyword, #F18383);
+}
+code[data-lang='css'] .hl-property {
+  color: var(--hl-kirby-dark-css-property, #F0D575);
+}
+
+/* YAML */
+code[data-lang='yaml'] .hl-keyword {
+  color: var(--hl-kirby-dark-yaml-keyword, #F18383);
+}
+code[data-lang='yaml'] .hl-property {
+  color: var(--hl-kirby-dark-yaml-property, #B3B3B3);
+}
