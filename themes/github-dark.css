@@ -1,0 +1,32 @@
+pre, code {
+  color: #E1E4E8;
+  background-color: #24292E;
+}
+
+.hl-keyword {
+  color: #F97583;
+}
+
+.hl-property {
+  color: #B392F0;
+}
+
+.hl-type {
+  color: #79B8FF;
+}
+
+.hl-generic {
+  color: #F97583;
+}
+
+.hl-value {
+  color: #9ECBFF;
+}
+
+.hl-variable {
+  color: #FFAB70;
+}
+
+.hl-comment {
+  color: #6A737D;
+}
