@@ -1,5 +1,8 @@
 <?php
 
+use Tempest\Highlight\Highlighter;
+use Tempest\Highlight\Themes\InlineTheme;
+
 return [
   // Inline Code Renderer
   'kirbytext:before' => function (string $text) {
@@ -7,10 +10,14 @@ return [
       $language = $match['match'];
       $code = $match['code'];
 
-      $highlighter = new \Tempest\Highlight\Highlighter();
-      $highlightedCode = $highlighter->parse($code, $language);
+      $theme = option('bogdancondorachi.highlight.defaultTheme', 'kirby-dark');
+      $themePath = kirby()->root('plugins') . '/highlight/themes/' . $theme . '.css';
+
+      $highlighter = new Highlighter(new InlineTheme($themePath));
+
+      $parsed = $highlighter->parse($code, $language);
   
-      return '<code data-lang="' . $language . '">' . $highlightedCode  . '</code>';
+      return '<code data-lang="' . $language . '">' . $parsed  . '</code>';
     }, $text);
 
     return $text;
