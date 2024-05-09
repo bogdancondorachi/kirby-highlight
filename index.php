@@ -6,7 +6,8 @@ Kirby::plugin('bogdancondorachi/highlight', [
   'hooks' => require __DIR__ . '/extensions/hooks.php',
 
   'options' => [
-    'theme' => 'kirby-dark'
+    'theme' => 'kirby-dark',
+    'gutter' => false
   ],
 
   'snippets' => [
