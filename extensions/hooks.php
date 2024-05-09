@@ -10,13 +10,13 @@ return [
       $language = $match['match'];
       $code = $match['code'];
 
-      $theme = option('bogdancondorachi.highlight.defaultTheme', 'kirby-dark');
+      $theme = option('bogdancondorachi.highlight.theme');
       $themePath = kirby()->root('plugins') . '/highlight/themes/' . $theme . '.css';
 
       $highlighter = new Highlighter(new InlineTheme($themePath));
 
       $parsed = $highlighter->parse($code, $language);
-  
+
       return '<code data-lang="' . $language . '">' . $parsed  . '</code>';
     }, $text);
 
