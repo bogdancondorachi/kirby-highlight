@@ -2,7 +2,7 @@
   "name": "bogdancondorachi/kirby-highlight",
   "description": "Server-side syntax highlighting for Kirby CMS",
   "type": "kirby-plugin",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "license": "MIT",
   "homepage": "https://github.com/bogdancondorachi/kirby-highlight",
   "authors": [
