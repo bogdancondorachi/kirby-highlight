@@ -1,8 +1,8 @@
 <?php return array(
     'root' => array(
         'name' => 'bogdancondorachi/kirby-highlight',
-        'pretty_version' => '0.1.0',
-        'version' => '0.1.0.0',
+        'pretty_version' => '0.2.0',
+        'version' => '0.2.0.0',
         'reference' => NULL,
         'type' => 'kirby-plugin',
         'install_path' => __DIR__ . '/../../',
@@ -11,8 +11,8 @@
     ),
     'versions' => array(
         'bogdancondorachi/kirby-highlight' => array(
-            'pretty_version' => '0.1.0',
-            'version' => '0.1.0.0',
+            'pretty_version' => '0.2.0',
+            'version' => '0.2.0.0',
             'reference' => NULL,
             'type' => 'kirby-plugin',
             'install_path' => __DIR__ . '/../../',
@@ -29,9 +29,9 @@
             'dev_requirement' => false,
         ),
         'tempest/highlight' => array(
-            'pretty_version' => '2.3.1',
-            'version' => '2.3.1.0',
-            'reference' => 'abab8b516d76727402459cc73755f5568fddfce2',
+            'pretty_version' => '2.3.5',
+            'version' => '2.3.5.0',
+            'reference' => 'd90ed95e9f3d8e0ea5645c99de2cea742a560513',
             'type' => 'library',
             'install_path' => __DIR__ . '/../tempest/highlight',
             'aliases' => array(),

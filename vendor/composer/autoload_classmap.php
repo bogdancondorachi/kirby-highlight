@@ -146,6 +146,7 @@ return array(
     'Tempest\\Highlight\\Languages\\Php\\Patterns\\SingleQuoteValuePattern' => $vendorDir . '/tempest/highlight/src/Languages/Php/Patterns/SingleQuoteValuePattern.php',
     'Tempest\\Highlight\\Languages\\Php\\Patterns\\SinglelineCommentPattern' => $vendorDir . '/tempest/highlight/src/Languages/Php/Patterns/SinglelineCommentPattern.php',
     'Tempest\\Highlight\\Languages\\Php\\Patterns\\StaticClassCallPattern' => $vendorDir . '/tempest/highlight/src/Languages/Php/Patterns/StaticClassCallPattern.php',
+    'Tempest\\Highlight\\Languages\\Php\\Patterns\\StaticPropertyPattern' => $vendorDir . '/tempest/highlight/src/Languages/Php/Patterns/StaticPropertyPattern.php',
     'Tempest\\Highlight\\Languages\\Php\\Patterns\\TypeForVariablePattern' => $vendorDir . '/tempest/highlight/src/Languages/Php/Patterns/TypeForVariablePattern.php',
     'Tempest\\Highlight\\Languages\\Php\\Patterns\\UntypedClassPropertyPattern' => $vendorDir . '/tempest/highlight/src/Languages/Php/Patterns/UntypedClassPropertyPattern.php',
     'Tempest\\Highlight\\Languages\\Php\\Patterns\\UseAsPattern' => $vendorDir . '/tempest/highlight/src/Languages/Php/Patterns/UseAsPattern.php',

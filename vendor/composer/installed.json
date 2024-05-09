@@ -52,17 +52,17 @@
         },
         {
             "name": "tempest/highlight",
-            "version": "2.3.1",
-            "version_normalized": "2.3.1.0",
+            "version": "2.3.5",
+            "version_normalized": "2.3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tempestphp/highlight.git",
-                "reference": "abab8b516d76727402459cc73755f5568fddfce2"
+                "reference": "d90ed95e9f3d8e0ea5645c99de2cea742a560513"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tempestphp/highlight/zipball/abab8b516d76727402459cc73755f5568fddfce2",
-                "reference": "abab8b516d76727402459cc73755f5568fddfce2",
+                "url": "https://api.github.com/repos/tempestphp/highlight/zipball/d90ed95e9f3d8e0ea5645c99de2cea742a560513",
+                "reference": "d90ed95e9f3d8e0ea5645c99de2cea742a560513",
                 "shasum": ""
             },
             "require": {
@@ -75,7 +75,7 @@
                 "phpstan/phpstan": "^1.10.0",
                 "phpunit/phpunit": "^10.0"
             },
-            "time": "2024-04-25T11:41:26+00:00",
+            "time": "2024-05-09T06:37:58+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -96,7 +96,7 @@
             "description": "Fast, extensible, server-side code highlighting",
             "support": {
                 "issues": "https://github.com/tempestphp/highlight/issues",
-                "source": "https://github.com/tempestphp/highlight/tree/2.3.1"
+                "source": "https://github.com/tempestphp/highlight/tree/2.3.5"
             },
             "funding": [
                 {

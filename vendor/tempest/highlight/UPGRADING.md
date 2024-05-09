@@ -1,3 +1,19 @@
+## 2.3.5
+
+- Improved line splitting for gutter (#115)
+
+## 2.3.4
+
+- Add `class="notranslate"` to pre tags to prevent Google Translate from translating code blocks (#114)
+
+## 2.3.3
+
+- Fix blade comments being styled as deletions (#10)
+
+## 2.3.2 
+
+- Bugfixes
+
 ## 2.3.1
 
 - Several bugfixes

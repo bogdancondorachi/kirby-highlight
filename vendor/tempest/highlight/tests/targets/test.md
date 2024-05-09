@@ -1,4 +1,3 @@
-```php
-/** @var Foo[] */
-ads
+```blade
+{{-- Blade comment --}}
 ```

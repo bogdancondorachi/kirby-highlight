@@ -169,6 +169,7 @@ class ComposerStaticInitd2dda93e911ef204dff802e8d92f3cce
         'Tempest\\Highlight\\Languages\\Php\\Patterns\\SingleQuoteValuePattern' => __DIR__ . '/..' . '/tempest/highlight/src/Languages/Php/Patterns/SingleQuoteValuePattern.php',
         'Tempest\\Highlight\\Languages\\Php\\Patterns\\SinglelineCommentPattern' => __DIR__ . '/..' . '/tempest/highlight/src/Languages/Php/Patterns/SinglelineCommentPattern.php',
         'Tempest\\Highlight\\Languages\\Php\\Patterns\\StaticClassCallPattern' => __DIR__ . '/..' . '/tempest/highlight/src/Languages/Php/Patterns/StaticClassCallPattern.php',
+        'Tempest\\Highlight\\Languages\\Php\\Patterns\\StaticPropertyPattern' => __DIR__ . '/..' . '/tempest/highlight/src/Languages/Php/Patterns/StaticPropertyPattern.php',
         'Tempest\\Highlight\\Languages\\Php\\Patterns\\TypeForVariablePattern' => __DIR__ . '/..' . '/tempest/highlight/src/Languages/Php/Patterns/TypeForVariablePattern.php',
         'Tempest\\Highlight\\Languages\\Php\\Patterns\\UntypedClassPropertyPattern' => __DIR__ . '/..' . '/tempest/highlight/src/Languages/Php/Patterns/UntypedClassPropertyPattern.php',
         'Tempest\\Highlight\\Languages\\Php\\Patterns\\UseAsPattern' => __DIR__ . '/..' . '/tempest/highlight/src/Languages/Php/Patterns/UseAsPattern.php',

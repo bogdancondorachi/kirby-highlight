@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c717c69f723c38445974200cbadb6c9f",
+    "content-hash": "122ab5fe7db32ff227d50bb0245d7947",
     "packages": [
         {
             "name": "getkirby/composer-installer",
@@ -55,16 +55,16 @@
         },
         {
             "name": "tempest/highlight",
-            "version": "2.3.1",
+            "version": "2.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tempestphp/highlight.git",
-                "reference": "abab8b516d76727402459cc73755f5568fddfce2"
+                "reference": "d90ed95e9f3d8e0ea5645c99de2cea742a560513"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tempestphp/highlight/zipball/abab8b516d76727402459cc73755f5568fddfce2",
-                "reference": "abab8b516d76727402459cc73755f5568fddfce2",
+                "url": "https://api.github.com/repos/tempestphp/highlight/zipball/d90ed95e9f3d8e0ea5645c99de2cea742a560513",
+                "reference": "d90ed95e9f3d8e0ea5645c99de2cea742a560513",
                 "shasum": ""
             },
             "require": {
@@ -96,7 +96,7 @@
             "description": "Fast, extensible, server-side code highlighting",
             "support": {
                 "issues": "https://github.com/tempestphp/highlight/issues",
-                "source": "https://github.com/tempestphp/highlight/tree/2.3.1"
+                "source": "https://github.com/tempestphp/highlight/tree/2.3.5"
             },
             "funding": [
                 {
@@ -104,7 +104,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-04-25T11:41:26+00:00"
+            "time": "2024-05-09T06:37:58+00:00"
         }
     ],
     "packages-dev": [],
